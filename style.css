@@ -1,0 +1,74 @@
+body {
+  background-image: url(wallpaperflare.com_wallpaper\ \(4\).jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #0f0f0f;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-style: italic;
+  font-size: large;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  margin: 0 40px;
+  width: 24px;
+  height: 24px;
+  background: #fa0202;
+  box-shadow: inset 0 0 0 0.4em rgb(36, 35, 35), 0 0 0 0.3em;
+  border-radius: 50%;
+  transition: 0.2s;
+  cursor: pointer;
+  color: #363945;
+}
+input:hover, input:checked {
+  background: #db1515;
+  box-shadow: inset 0 0 0 0.6em rgb(105, 104, 104), 0 0 0 0.3em;
+}
+input:checked {
+  background: #f70303;
+  box-shadow: inset 0 0 0 0.4em white, 0 0 0 0.3em #f30909;
+}
+input:focus {
+  outline: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+img {
+  border-radius: 10px;
+  height: 444px;
+  width: 300px;
+  padding: 5px;
+}
+
+img:hover { 
+  transform: scale(1.1, 1.1);
+  box-shadow: 10px 10px 91px 0px rgb(238, 7, 15);
+  z-index: 9999;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  background-color: rgb(255, 4, 4);
+}
+
+
+
+
